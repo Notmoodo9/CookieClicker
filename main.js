@@ -4884,9 +4884,7 @@ Game.Launch=function()
 		Game.goldenCookieChoices=[
 			"Frenzy","frenzy",
 			"Lucky","multiply cookies",
-			"Ruin","ruin cookies",
 			"Elder frenzy","blood frenzy",
-			"Clot","clot",
 			"Click frenzy","click frenzy",
 			"Cursed finger","cursed finger",
 			"Cookie chain","chain cookie",
