@@ -15,8 +15,8 @@ M.launch=function()
 				desc:'Summon half an hour worth of your CpS, capped at 15% of your cookies owned.',
 				failDesc:'Trigger a 15-minute clot and lose 15 minutes of CpS.',
 				icon:[21,11],
-				costMin:2,
-				costPercent:0.4,
+				costMin:0,
+				costPercent:0.0,
 				win:function()
 				{
 					var val=Math.max(7,Math.min(Game.cookies*0.15,Game.cookiesPs*60*30));
