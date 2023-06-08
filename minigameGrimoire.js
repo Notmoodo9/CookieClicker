@@ -43,7 +43,7 @@ M.launch=function()
 				costPercent:0.05,
 				failFunc:function(fail)
 				{
-					return fail+0.15*Game.shimmerTypes['golden'].n;
+					return fail+0.0005*Game.shimmerTypes['golden'].n;
 				},
 				win:function()
 				{
